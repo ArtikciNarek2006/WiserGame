@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="shadow">#aa999999</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg">#ff303035</color>
+    <color name="row_bg">#0B2F56</color>
+    <color name="row_stroke">#E84A4A</color>
+
+    <color name="minus_btn">#ED4242</color>
+    <color name="plus_btn">#42A8ED</color>
+</resources>

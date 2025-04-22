@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WiserWebSBControl</string>
+    <string name="plus_symb">+</string>
+    <string name="minus_symb">-</string>
+</resources>
