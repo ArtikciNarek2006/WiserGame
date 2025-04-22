@@ -1,0 +1,39 @@
+*{
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    font-size: inherit !important;
+	caret-color: transparent;
+}
+
+::selection{
+	background: transparent;
+}
+
+html, body{
+    background-color: #101015;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(315deg, rgb(80, 205, 186) 3%, rgba(60,132,206,1) 38%, rgb(48, 238, 203) 68%, rgb(25, 240, 255) 98%);
+    animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}

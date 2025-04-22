@@ -1,0 +1,1 @@
+javac -cp "C:\xampp\tomcat\lib\*;.\lib\*" -d ./classes ./src/main/java/com/wiserweb/*.java ./src/main/java/com/table/*.java ./src/main/java/com/util/*.java

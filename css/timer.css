@@ -1,0 +1,42 @@
+#timer.inActive{
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+#timer{
+    position: absolute;
+    bottom: 2.5vmin;
+    left: 2.5vmin;
+
+    opacity: 1;
+    z-index: 10000;
+    background-color: #1119;
+
+    transition-duration: 0.3s;
+    border-radius: 2vh;
+    width: fit-content;
+    padding: 2vmin;
+    box-shadow: #555a 0 0 1.5vmin 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+#timer p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    color: #fff;
+    
+    /* mix-blend-mode: difference; */
+}
+
+#timer #text{
+    color:#ccf;
+    margin-right: 1vmin;
+}
